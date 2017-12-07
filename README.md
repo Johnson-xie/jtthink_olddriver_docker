@@ -9,7 +9,7 @@
 程序员在囧途-老司机学语言之python篇
 
 * [视频地址：http://www.jtthink.com/course/54](http://www.jtthink.com/course/54)
-* [目录](https://github.com/lianghongle/jtthink_olddriver_python/blob/master/CATALOG.md)
+* [目录](https://github.com/lianghongle/jtthink_olddriver_docker/blob/master/CATALOG.md)
 
 DIRECTORY STRUCTURE
 -------------------
