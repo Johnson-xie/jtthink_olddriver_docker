@@ -17,6 +17,7 @@ DIRECTORY STRUCTURE
 ```
 /
     chapter_01/         第一章:Docker基础使用篇
+    chapter_02/         第二章:案例篇:Nginx负载均衡
     CATALOG.md          整理目录
     README.md           readme.md
 ```
