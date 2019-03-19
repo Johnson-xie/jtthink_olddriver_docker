@@ -7,25 +7,25 @@
 
 ## 第一章:Docker基础使用篇
 
-### 第1讲:热身、安装Docker、下载阿里云镜像、运行外部PHP容器
+### [第1讲:热身、安装Docker、下载阿里云镜像、运行外部PHP容器](https://www.jtthink.com/course/play/1128)
 * 今天先来个热身。快速安装并且下载一个外部做好的PHP容器，启动一下，感受一下Docker
 
-### 第2讲:容器的基本操作(1)：拉取官方镜像、创建、终端操作容器、执行命令
+### [第2讲:容器的基本操作(1)：拉取官方镜像、创建、终端操作容器、执行命令](https://www.jtthink.com/course/play/1129)
 * 这节课我们开始正式进入Docker的基础学习。今天学习到基本的命令如docker run、attach、exec等
 
-### 第3讲:容器的基本操作(2)：Dockerfile的使用、创建Apache镜像、启动容器并外部访问网站
+### [第3讲:容器的基本操作(2)：Dockerfile的使用、创建Apache镜像、启动容器并外部访问网站](https://www.jtthink.com/course/play/1130)
 * 这节课需要操作的地方比较多，请课后多操作，提高熟练度。
 
-### 第4讲:容器的基本操作(3)：Dockerfile的使用、容器和主机间的数据共享
+### [第4讲:容器的基本操作(3)：Dockerfile的使用、容器和主机间的数据共享](https://www.jtthink.com/course/play/1133)
 * 今天学习到的是主机和容器的数据共享
 
-### 第5讲:容器的基本操作(4)：Dockerfile的使用、拷贝JDK配置JAVA运行环境
+### [第5讲:容器的基本操作(4)：Dockerfile的使用、拷贝JDK配置JAVA运行环境](https://www.jtthink.com/course/play/1139)
 * 今天我们来给我们的镜像加入JDK的运行环境配置。过程很简单，建议大家多操作
 
-### 第6讲:Docker的可编程性、配置远程连接、python连接Docker编程
+### [第6讲:Docker的可编程性、配置远程连接、python连接Docker编程](https://www.jtthink.com/course/play/1140)
 * 前面无脑使用Docker的一些操作后，我们要开始入手一些核心概念了
 
-### 第7讲:入手Docker管理工具portainer、创建MySql容器并外部连接 试听
+### [第7讲:入手Docker管理工具portainer、创建MySql容器并外部连接 试听](https://www.jtthink.com/course/play/1142)
 * 今天我们来入手一个管理工具，并且利用它创建一个mysql容器
 
 ## 第二章:案例篇:Nginx负载均衡

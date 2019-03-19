@@ -1,12 +1,6 @@
 # jtthink_olddriver_docker
-老司机学Docker之初级实战篇
-
-
------
-
-# jtthink_olddriver_python
-
 程序员在囧途-老司机学语言之python篇
+-----
 
 * [视频地址：http://www.jtthink.com/course/54](http://www.jtthink.com/course/54)
 * [目录](https://github.com/lianghongle/jtthink_olddriver_docker/blob/master/CATALOG.md)
@@ -16,10 +10,17 @@ DIRECTORY STRUCTURE
 
 ```
 /
-    chapter_01/         第一章:Docker基础使用篇
-    chapter_02/         第二章:案例篇:Nginx负载均衡
+    courseware/         课件
+        chapter_01/         第一章:Docker基础使用篇
+        chapter_02/         第二章:案例篇:Nginx负载均衡
+    notes/              笔记
+        01              安装,基本使用
+        02              使用
+        03              Dockerfile
+        04              API
     CATALOG.md          整理目录
     README.md           readme.md
+    NOTES.md            笔记
 ```
 
 ## 相关文档
