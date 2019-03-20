@@ -18,6 +18,8 @@ DIRECTORY STRUCTURE
         02              使用
         03              Dockerfile
         04              API
+        05              portainer
+        06              制作镜像
     CATALOG.md          整理目录
     README.md           readme.md
     NOTES.md            笔记
