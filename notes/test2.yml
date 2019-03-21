@@ -1,0 +1,37 @@
+#直接创建网络，指定 ip
+#引用.env 变量
+services:
+  web1:
+    container_name: web1
+    image:"centos:jdk"
+    ports:
+      - "8080:80"
+    privileged: true
+    volumes:
+      - "/home/shenyi/nginx/web1/:/var/www/html/"
+    networks:
+      mynginx-net:
+        ipv4_address: 192.158.0.1
+  web2:
+    container_name: web2
+    image: "centos:jdk"
+    healthcheck:
+      test: ["CMD", "curl","-s","-f", "http://localhost:80"]
+      interval: 5s
+      timeout: 5s
+      retries: 3
+    ports:
+      - "8081:80"
+    privileged: true
+    volumes:
+      - "/home/shenyi/nginx/web2/:/var/www/html/"
+    networks:
+      mynginx-net:
+        ipv4_address: ${web2_ip}
+version: "3"
+networks:
+  mynginx-net-auto:
+     driver: bridge
+     ipam:
+      config:
+        - subnet: 192.158.0.0/16
